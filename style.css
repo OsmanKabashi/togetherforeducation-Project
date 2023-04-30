@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cover {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.introduction {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulli {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: /*#009DDC*/ black;
+  font-weight: 900;
+  font-size: 27px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.teksti{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-size: larger;
+  line-height: 25px;
+}
+
+
+.quote {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+}
+
+.ofertat {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.money{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+#money {
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+}
+
+#nf {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.psikologji {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 35px;
+}
+
+#psikologji {
+  width: 125px;
+  height: auto;
+  margin-left: 20px;
+}
+
+#np {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.pune {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+#pune {
+  width: 180px;
+  height: auto;
+  margin-top: 10px;
+}
+
+#mp {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.bursa {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+#bursa {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+
+#b {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.titulli2 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+

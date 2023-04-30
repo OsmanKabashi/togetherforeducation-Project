@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>togetherforeducation</title>
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" type="image/x-icon" href="foto/logo.png">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+      </style>
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="index.html"> <img class="logo" src="foto/logo.png" alt="logo"></a>
+      <div class="navItems">
+      <ul>
+        <li> <a href="index.html" > <button> Ballina</button></a> </li>  
+        <li><a href="rrethnesh.html"><button> Rreth nesh</button></a></li>
+        <li><a href="donate.html"><button> Donacione</button></a></li>
+        <li><a href="report.html" ><button id="report">Raporto</button></a></li>
+        <li><a href="kontakt.html" ><button id="kontakt"> Na kontaktoni</button></a></li>
+        <li><a href="singUp.html" ><button id="signIn"> SIGN UP</button></a></li>
+      </ul>
+    </div>
+    </div>
+
+
+    <form id="donation-form">
+      <label for="name">Emri:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="amount">Sasia:</label>
+      <input type="number" id="amount" name="amount" required>
+      <label for="bank-details">Mënyra e donacionit:</label>
+      <select id="bank-details" name="bank-details" required>
+        <option value="">Zgjedhni mënyrën e donacionit</option>
+        <option value="Bank Account">Llogari bankare</option>
+        <option value="Paypal">Paypal</option>
+        <option value="Credit Card">Kartë krediti</option>
+      </select>
+      <button type="submit">Kryej donacionin</button>
+      <div id="success-message"></div>
+    </form>
+
+    <script src="donate.js"></script>
+
+
+  </body>
+
+     

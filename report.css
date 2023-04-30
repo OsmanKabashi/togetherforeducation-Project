@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+h1{
+  margin-top: 100px; ;
+  text-align: center;
+}
+
+.mesazhi {
+  width: 100px;
+  height: 30px;
+  background-color: #009DDC;
+  color: white;
+  border-radius: 5px;
+  font-weight: 450;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  transition: 0.5s;
+}
+
+
+.mesazhi:hover {
+  background-color: #045879;
+}
+
+.mesazhi:active {
+  background-color: #47c8fa;
+}
+
+
+p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+
+.situata {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+.email {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.numri {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.detaje {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#mesazhi {
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+#situata {
+  font-size: large;
+  font-weight: bold;
+}
+
+#email-label {
+  font-size: large;
+  font-weight: bold;
+}
+
+#email-input {
+  width: 400px;
+  height: 30px;
+}
+
+#numri-label {
+  font-size: large;
+  font-weight: bold;
+}
+
+#numri-input {
+  width: 400px;
+  height:30px;
+}
+
+#detaje-label {
+  font-size: large;
+  font-weight: bold;
+}
+
+#detaje-text-area {
+  width: 500px;
+  height: 250px;
+}

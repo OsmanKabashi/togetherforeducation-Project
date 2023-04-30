@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+}
+
+.description h2 {
+  text-align: center;
+  color: /*#009DDC*/ black;
+  margin-bottom: 60px;
+}
+
+.description p {
+  text-align: center;
+  color: /*#009DDC*/ black;
+}
+
+.klasa {
+  width: 400px;
+  height: auto;
+  opacity: 0.8;
+  margin-left: 70px;
+  border-radius: 3px;
+}
+
+
+.secondRow {
+  display: flex;
+  flex-direction:row ;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cardOne {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: #67b7d7;
+  border-radius: 5px;
+}
+
+.cardOneText {
+  width: 300px;
+  padding-bottom: 20px;
+
+}
+
+.cardOneText h3 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.cardOneText p {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ela {
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; ;
+}
+
+
+.team {
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+.cardTwo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.petriti {
+  width: 300px;
+  height: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.cardTwoText {
+  background-color: #67b7d7;
+  height: 210px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cardTwoText h3 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.cardTwoText p {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.cardThree {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.luani {
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.cardThreeText {
+  display: flex;
+  flex-direction: column;
+  background-color: #67b7d7;
+  height: 210px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}
+
+.cardThreeText h3 {
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  
+}
+
+.cardThreeText p {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.vullnetar {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+span {
+  font-weight: bold;
+}

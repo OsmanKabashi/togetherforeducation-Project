@@ -1,0 +1,53 @@
+.footerDad {
+  display: flex;
+  flex-direction: column;
+  background-color: #009DDC;
+  padding-bottom: 30px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #009DDC;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.footerLogo {
+  width: 150px;
+  height: auto;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  width: 500px;
+  font-size: small;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.igLink {
+  width: 70px;
+  height: auto;
+}
+
+.fbLink {
+  width: 40px;
+  height: auto;
+  margin-bottom:15px;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
